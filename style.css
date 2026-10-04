@@ -1,0 +1,110 @@
+
+        *{
+           
+            margin: 0;
+            padding: 0;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .top {
+            background-color: black;
+            color: white;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background-color: white;
+            background-blend-mode: darken;
+            background-size: cover;
+            color: black;
+            padding: 10px 20px;
+            box-shadow: 2px 2px black;
+        }
+        .logo {
+            width: 160ppx;
+            height: 36px;
+        }
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+        .nav-list li {
+            margin-right: 20px;
+        }
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+        .nav-list li a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            transition: color 0.3s ease-in-out;
+        }
+        .nav-list li a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        .rightnav {
+            text-align: right
+            ;
+        }
+        .hero-section {
+           position: relative;
+           text-align: center;
+           color: white;
+        }
+        .logo-section {
+            background-color: black;
+            width: 100%;
+            height: 89px;
+        }
+        .h1 {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .p1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        hr.solid {
+            border-top: 1px solid rgb(185, 183, 183);
+            margin-top: 20px;
+        }
+        .grid-card {
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+        }
+        .grid-section {
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .accessories {
+            display: flex;
+        }
+        .desc {
+            color: orangered;
+        }
+        .black {
+            width: 100%;
+            height: 308px;
+            background-color: black;
+            margin-top: 160px;
+           
+            color: white;
+        }
+        .footer {
+            background-color: gainsboro;
+            width: 100%;
+            height: 329px;
+            grid-template-columns: 1fr 1fr 1fr ;
+        }
+        .footerb {
+            background-color: white;
+            height: 70px;
+        }
+       
+        
